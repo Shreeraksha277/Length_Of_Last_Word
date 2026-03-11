@@ -11,7 +11,7 @@ class Solution {
         // Count the characters of the last word
         while(i >= 0 && s.charAt(i) != ' ') {
             length++;
-            i--;
+             i--;
         }
 
         return length;
