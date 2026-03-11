@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLastWord(String s) {
         int length = 0;
-        int i = s.length() - 1;
+         int i = s.length() - 1;
 
         // Skip spaces at the end
         while(i >= 0 && s.charAt(i) == ' ') {
